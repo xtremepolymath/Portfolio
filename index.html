@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Classen's Online Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="nav" id="nav">
+        <div class="navItem" id="navHome">HOME</div>
+        <div class="navIcon selected" id="navHomeIcon"><img class="icon" src="home.png"></div>
+        <div class="navItem" id="navAbout">ABOUT</div>
+        <div class="navIcon" id="navAboutIcon"><img class="icon" src="about.png"></div>
+        <div class="navItem" id="navData">DATA</div>
+        <div class="navIcon" id="navDataIcon"><img class="icon" src="data.png"></div>
+        <div class="navItem" id="navAnalysis">ANALYSIS</div>
+        <div class="navIcon" id="navAnalysisIcon"><img class="icon" src="analysis.png"></div>
+        <div class="navItem" id="navProgramming">Coding</div>
+        <div class="navIcon" id="navProgrammingIcon"><img class="icon" src="coding.png"></div>
+        <div class="navItem" id="navDesign">DESIGN</div>
+        <div class="navIcon" id="navDesignIcon"><img class="icon" src="design.png"></div>
+        <div class="navItem" id="navInteractive">INTERACTIVE</div>
+        <div class="navIcon" id="navInteractiveIcon"><img class="icon" src="interactive.png"></div>
+        <div class="navItem" id="navContact">CONTACT</div>
+        <div class="navIcon" id="navContactIcon"><img class="icon" src="contact.png"></div>
+    </div>
+    <div class="container" id="container">
+        <div class="panel navy-bg" id="splash">
+            <h1 class="panel-header white-text mary-3">Welcome to Nick Classen's Online Portfolio</h1>
+            <div><h2 class="yellow-text">My passion is to create unique and memorable experiences</h2></div>
+            <div class="two-columns">
+                <div class="home-box">
+                    <h2><u>Professionally</u></h2>
+                    <p>I accomplish this by unearthing customer <br /> insights through data reporting and analysis, <br /> then working with other teams to design <br /> projects aimed at improving the <br /> customer experience.</p>
+                </div>
+                <div class="home-box">
+                    <h2><u>Non-Professionally</u></h2>
+                    <p>I use programming, game design concepts, <br /> and a number of other tools to make both <br /> virtual and in-person interactive experiences, <br /> such as games and escape rooms.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel darkteal-bg" id="about">
+            <h1 class="panel-header white-text">About</h1>
+            <div class="two-columns">
+                <div class="about-content">
+                    <div class="about-menu">
+                        <div class="about-menu-item selected" id="aboutBioBut">Bio</div>
+                        <div class="about-menu-item" id="aboutEduBut">Education</div>
+                        <div class="about-menu-item" id="aboutExpBut">Experience</div>
+                        <div class="about-menu-item" id="aboutResBut">Resum<span>&#233</span></div>
+                    </div>
+                    <div class="about-info lightgrey-bg" id="about-info">
+                        <div class="" id="aboutBioBox">
+                            <p>I am a data and insight professional based out of Portland, OR.</p>
+
+                            <p>I have worked in healthcare for over 10 years: 5 years in direct patient care and 5 years in administrative roles with a focus on data management and reporting.</p>
+
+                            <p>I specialize in gathering quantitative data from disparate sources and using it to drive consumer-focused and operational research projects. I have experience in nearly every step in the insight gathering process, including data mining, modelling, reporting, analysis, and presentation. I also have experience leading multifunctional team projects aimed at improving consumer experience.</p>
+
+                            <p>Beyond my professional experience, I have created multiple interactive experiences and shared them with friends and family. These include role-playing game systems, escape rooms, and board games.</p>
+
+                            <p>I have also dabbled in web design, graphic design, and audio recording in both professional and personal settings.</p>
+                        </div>
+                        <div class="hidden" id="aboutEduBox">
+                            <div class="eduRow">
+                                <img class="aboutImg" src="pacific.png" />
+                                <div>
+                                    <h2>Pacific University  (2017 - 2019)</h2>
+                                    <p>Master of Healthcare Administration</p>
+                                    <p>Original Research Capstone Project: "Home Blood Pressure Monitoring in Patients with Essential Hypertension and its Effect on Chronic Disease Self-Efficacy"</p>
+                                    <p>Winner of 2019 MHA Capstone Excellence Award</p>
+                                </div>
+                            </div>
+                            <div class="eduRow">
+                                <img src="osu.png" />
+                                <div>
+                                    <h2>Oregon State University  (2008 - 2012)</h2>
+                                    <p>B.S. Biochemistry and Biophysics</p>
+                                    <p>Summer internship with with OHSU Institute of Occupational Health Sciences (formerly CROET)</p>
+                                    <p>1st place in 2010 CROET Intern Poster contest</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden" id="aboutExpBox">
+                            <div class="expRow">
+                                <img class="aboutImg" src="legacy.jpg" />
+                                <div>
+                                    <h2>Legacy Health  (2022 - present)</h2>
+                                    <p>Consumer Insights Analyst</p>
+                                </div>
+                                <div class="expDescBut" id="csiDescBut">See Description ></div>
+                            </div>
+                            <div class="expRow">
+                                <img class="aboutImg" src="legacy.jpg" />
+                                <div>
+                                    <h2>Legacy Health  (2020 - 2022)</h2>
+                                    <p>Stroke Program Data Coordinator</p>
+                                </div>
+                                <div class="expDescBut" id="strokeDescBut">See Description ></div>
+                            </div>
+                            <div class="expRow">
+                                <img class="aboutImg" src="legacy.jpg" />
+                                <div>
+                                    <h2>Legacy Health  (2018 - 2020)</h2>
+                                    <p>Panel Coordinator</p>
+                                </div>
+                                <div class="expDescBut" id="pcDescBut">See Description ></div>
+                            </div>
+                            <div class="expRow">
+                                <img class="aboutImg" src="fres.png" />
+                                <div>
+                                    <h2>Fresenius Kidney Care  (2013 - 2018)</h2>
+                                    <p>Patient Care Technician / <br /> Supply Chain & Operations Specialist</p>
+                                </div>
+                                <div class="expDescBut" id="fresDescBut">See Description ></div>
+                            </div>
+                        </div>
+                        <div class="hidden" id="aboutResBox">
+                            Please use the contact form to request a resum<span>&#233</span> or cover letter.
+                        </div>
+                        <div class="hidden" id="csiDescBox">
+                            <h2>Job Description</h2>
+                            <p>Primary quantitative analyst for Strategy and Customer Experience team. I developed and conducted consumer and operational research in the orgnization, focusing on driving insights into the customer journey. I built large-scale data models, dynamic reports, and robust metrics.</p>
+                            <h2>Accomplishments</h2>
+                            <p>Developed System-wide metrics and reporting for patient aquisition and retention strategic iniatitives.</p>
+                            <p>Was the primary analyst for researching and tracking ambulatory patient access.</p>
+                            <p>Developed a methodology for typing patients into consumer segments from survey response data.</p>
+                            <p>Established relationships and coordinated workgroups between multiple stakeholders.</p>
+                            <p>Created business plans for implementation of new projects and new digital features.</p>
+                        </div>
+                        <div class="hidden" id="strokeDescBox">
+                            <h2>Job Description</h2>
+                            <p></p>
+                            <h2>Accomplishments</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img-box">
+                    <img src="download.png" />
+                </div> 
+            </div>
+            
+        </div>
+        <div class="panel lightgrey-bg" id="data">
+            <h1 class="panelheader navy-text">Data Management & Reporting</h1>
+            <div class="data-banner">
+                <div class="data-banner-img" id="aadmBanner">
+                    <img src="access-model.png"/>
+                    <div class="hidden-text">Ambulatory Access Data Model</div>
+                </div>
+                <div class="data-banner-img" id="sgrBanner">
+                    <img src="wrg-pbi.png"/>
+                    <div class="hidden-text">Strategic Goal Reporting</div>
+                </div>
+                <div class="data-banner-img" id="sitBanner">
+                    <img src="intervention.png"/>
+                    <div class="hidden-text">Stroke Intervention Entry Tool</div>
+                </div>
+                <div class="data-banner-img" id="xlwBanner">
+                    <img src="xlw1.png"/>
+                    <div class="hidden-text">Intro to Excel Workshop</div>
+                </div>
+                <div class="data-banner-img" id="hivBanner">
+                    <img src="hiv.png"/>
+                    <div class="hidden-text">HIV Conference Fact Sheet</div>
+                </div>
+            </div>
+            <div class="display hidden" id="aadmDisplay">
+                <div class="dispText">
+                    <h2>Ambulatory Access Data Model</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="access-model.png"/>
+            </div>
+            <div class="display hidden" id="sgrDisplay">
+                <div class="dispText">
+                    <h2>Strategic Goal Reporting</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="wrg-pbi.png"/>
+            </div>
+            <div class="display hidden" id="sitDisplay">
+                <div class="dispText">
+                    <h2>Stroke Intervention Entry Tool</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="intervention.png"/>
+            </div>
+            <div class="display hidden" id="xlwDisplay">
+                <div class="dispText">
+                    <h2>Intro to Excel Workshop</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="xlw1.png"/>
+            </div>
+            <div class="display hidden" id="hivDisplay">
+                <div class="dispText">
+                    <h2>HIV Conference Fact Sheet</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="hiv.png"/>
+            </div>
+        </div>
+        <div class="panel navy-bg" id="analysis">
+            <h1 class="lightgrey-text">Analysis & Research</h1>
+            <div class="data-banner">
+                <div class="data-banner-img" id="fbbBanner">
+                    <img src="fbb.png"/>
+                    <div class="hidden-text">Fantasy Basketball</div>
+                </div>
+                <div class="data-banner-img" id="slpBanner">
+                    <img src="slp.png"/>
+                    <div class="hidden-text">Service Line Planning</div>
+                </div>
+                <div class="data-banner-img" id="pgaBanner">
+                    <img src="pga.png" />
+                    <div class="hidden-text">Press Ganey Sentiment Analysis</div>
+                </div>
+                <div class="data-banner-img" id="afaBanner">
+                    <img src="afa.png"/>
+                    <div class="hidden-text">Access Friction Analysis</div>
+                </div>
+                <div class="data-banner-img" id="hhmBanner">
+                    <img src="hhm.png"/>
+                    <div class="hidden-text">Home Hypertension Monitoring Study</div>
+                </div>
+            </div>
+            <div class="display hidden" id="fbbDisplay">
+                <div class="dispText">
+                    <h2>Fantasy Basketball Analyzer</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="fbb.png"/>
+            </div>
+            <div class="display hidden" id="slpDisplay">
+                <div class="dispText">
+                    <h2>Cardiovascular Service Line Planning</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="slp.png"/>
+            </div>
+            <div class="display hidden" id="pgaDisplay">
+                <div class="dispText">
+                    <h2>Press Ganey Sentiment Analysis</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="pga.png"/>
+            </div>
+            <div class="display hidden" id="afaDisplay">
+                <div class="dispText">
+                    <h2>Patient Access Friction Analysis</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="afa.png"/>
+            </div>
+            <div class="display hidden" id="hhmDisplay">
+                <div class="dispText">
+                    <h2>Home Hypertension Monitoring Study</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="hhm.png"/>
+            </div>
+        </div>
+        <div class="panel darkteal-bg" id="coding">
+            <h1 class="white-text">Coding</h1>
+            <div class="data-banner">
+                <div class="data-banner-img" id="krpgBanner">
+                    <img src="krpg.png"/>
+                    <div class="hidden-text">Kaleido RPG</div>
+                </div>
+                <div class="data-banner-img" id="sttBanner">
+                    <img src="typing-tool.png"/>
+                    <div class="hidden-text">Segmentation Typing Tool</div>
+                </div>
+                <div class="data-banner-img" id="canvBanner">
+                    <img src="canv.png" />
+                    <div class="hidden-text">Stroke Case Report Canvas App</div>
+                </div>
+                <div class="data-banner-img" id="uplBanner">
+                    <img src="uploader.png"/>
+                    <div class="hidden-text">Stroke Registry Uploader</div>
+                </div>
+                <div class="data-banner-img" id="halBanner">
+                    <img src="hal.png"/>
+                    <div class="hidden-text">Escape Room "AI"</div>
+                </div>
+            </div>
+            <div class="display hidden" id="krpgDisplay">
+                <div class="dispText">
+                    <h2>Kaleido RPG</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="krpg.png"/>
+            </div>
+            <div class="display hidden" id="sttDisplay">
+                <div class="dispText">
+                    <h2>Segmentation Typing Tool</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="typing-tool.png"/>
+            </div>
+            <div class="display hidden" id="canvDisplay">
+                <div class="dispText">
+                    <h2>Stroke Case Report Cavnas App</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="canv.png"/>
+            </div>
+            <div class="display hidden" id="uplDisplay">
+                <div class="dispText">
+                    <h2>Segmentation Typing Tool</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="uploader.png"/>
+            </div>
+            <div class="display hidden" id="halDisplay">
+                <div class="dispText">
+                    <h2>Segmentation Typing Tool</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="hal.png"/>
+            </div>
+        </div>
+        <div class="panel navy-bg" id="design">
+            <h1 class="yellow-text">Design</h1>
+            <div class="data-banner">
+                <div class="data-banner-img" id="bpBanner">
+                    <img src="bp.png"/>
+                    <div class="hidden-text">Home Blood Pressure Guide</div>
+                </div>
+                <div class="data-banner-img" id="logoBanner">
+                    <img src="logo_K.png"/>
+                    <div class="hidden-text">Kaleido RPG Logo</div>
+                </div>
+                <div class="data-banner-img" id="vialBanner">
+                    <img src="vial.png"/>
+                    <div class="hidden-text">3D Modelling</div>
+                </div>
+                <div class="data-banner-img" id="settlerBanner">
+                    <img src="settler.jpg" />
+                    <div class="hidden-text">3D Printing</div>
+                </div>
+                <div class="data-banner-img" id="hdnBanner">
+                    <img src="hdn.jpg"/>
+                    <div class="hidden-text">Graphic Design</div>
+                </div>
+            </div>
+            <div class="display hidden" id="bpDisplay">
+                <div class="dispText">
+                    <h2>Fantasy Basketball Analyzer</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="bp.png"/>
+            </div>
+            <div class="display hidden" id="logoDisplay">
+                <div class="dispText">
+                    <h2>Fantasy Basketball Analyzer</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="gal-to-k.gif"/>
+            </div>
+            <div class="display hidden" id="vialDisplay">
+                <div class="dispText">
+                    <h2>Segmentation Typing Tool</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="vial.png"/>
+            </div>
+            <div class="display hidden" id="settlerDisplay">
+                <div class="dispText">
+                    <h2>Press Ganey Sentiment Analysis</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="settler.jpg"/>
+            </div>
+            <div class="display hidden" id="hdnDisplay">
+                <div class="dispText">
+                    <h2>Graphic Design - Baby Announcement</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="hdn.jpg"/>
+            </div>
+        </div>
+        <div class="panel lightgrey-bg" id="interactive">
+            <h1 class="navy-text">Interactive Experiences</h1>
+            <div class="data-banner">
+                <div class="data-banner-img" id="escBanner">
+                    <img src="esc.jpg"/>
+                    <div class="hidden-text">Space Station Escape Room</div>
+                </div>
+                <div class="data-banner-img" id="hackBanner">
+                    <img src="hack.png"/>
+                    <div class="hidden-text">Hacking Puzzle</div>
+                </div>
+                <div class="data-banner-img" id="roverBanner">
+                    <img src="rover.png" />
+                    <div class="hidden-text">Rover Puzzle</div>
+                </div>
+            </div>
+            <div class="display hidden" id="escDisplay">
+                <div class="dispText">
+                    <h2>Space Station Escape Room</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="esc.jpg"/>
+            </div>
+            <div class="display hidden" id="hackDisplay">
+                <div class="dispText">
+                    <h2>Hacking Mini-game</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="hack.png"/>
+            </div>
+            <div class="display hidden" id="roverDisplay">
+                <div class="dispText">
+                    <h2>Rover Mini-game</h2>
+                    <p>This large-scale data model was built in Power BI to show ambulatory clinic directors and managers the status of patient access metrics.</p>
+                    <p>The model featured connectivity between Epic data, Excel files, and custom data tables.</p>
+                    <p>Metrics and pages from the report were tracked by clinical leaders and used for reporting strategic A3 progress to senior leadership.</p>
+                    <p>Many of the metrics shown require multiple layers of DAX code and used strategic planning processes to develop targets.</p>
+                </div>
+                <img src="rover.png"/>
+            </div>
+        </div>
+        <div class="panel darkteal-bg" id="contact">
+            <h1 class="white-text">Contact</h1>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
